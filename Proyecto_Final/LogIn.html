@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TlalocShop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/bootstrapValidator.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.5.3/js/language/es_ES.min.js'></script>
+        <link rel="stylesheet" href="css/override.css">
+        <script src="js/validaciones.js"></script>
+    </head>
+    <body>
+        <div class="row" style="margin: 1px;">
+            <div class="col-md-12">
+                <div class="panel panel-default" >
+                    <nav class="navbar navbar-inverse navbar-fixed-top animate" style="background-color: #274056">
+                        <div class="container navbar-more visible-xs">
+                            <form class="navbar-form navbar-left" role="search">
+                                <div class="form-group"></div>
+                            </form>
+                        </div>
+                        <div class="container">
+                            <div class="navbar-header hidden-xs">
+                                <a class="navbar-brand" href="Home.html">TlalocShop</a>
+                            </div>
+                            <ul class="nav navbar-nav navbar-right mobile-bar">
+                                <li>
+                                    <a href="Home.html">
+                                        <span class="menu-icon fa fa-home" style="padding-top: 10px"></span>
+                                        <span class="hidden-xs">Home</span>
+                                        <i class="fa fa-home hidden-xs" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="products.html" style="color: white">
+                                        <span class="menu-icon fa fa-bars" style="padding-top: 10px"></span>
+                                        <span class="hidden-xs">Products</span>
+                                        <i class="fa fa-bars hidden-xs" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="MyAccount.html">
+                                        <span class="menu-icon fa fa-user" style="padding-top: 10px"></span>
+                                        <span class="hidden-xs">My Account</span>
+                                        <i class="fa fa-user hidden-xs" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="checout.html">
+                                        <span class="menu-icon fa fa-shopping-cart" style="padding-top: 10px"></span>
+                                        <span class="hidden-xs">My Cart</span>
+                                        <i class="fa fa-shopping-cart hidden-xs" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                    <br class="hidden-xs">
+                    <div class="row">
+                        <div class="col-xs-1 col-sm-1"></div>
+                        <div align=center class="col-xs-12 col-sm-4">
+                            <h4 class="gris" style="text-align: center"> LogIn</h4>
+                            <br>
+                            <div class="center">
+                                <span class="fa fa-key icono" aria-hidden="true"></span>
+                            </div>
+                            <br><br class="hidden-xs">
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <form class="well form-horizontal" action="" method="post"  id="contact_form2">
+                                <fieldset>
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label">Username: </label>
+                                      <div class="col-md-6 inputGroupContainer">
+                                          <div class="input-group">
+                                              <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                                              <input  name="username" placeholder="Username" class="form-control"  type="text">
+                                          </div>
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label class="col-md-4 control-label">Password: </label>
+                                      <div class="col-md-6 inputGroupContainer">
+                                          <div class="input-group">
+                                              <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                                              <input  name="password" placeholder="Password" class="form-control"  type="password">
+                                          </div>
+                                      </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div  align=center class="row">
+                                            <button id="azul" type="submit" class="btn btn-primary texto">Login <span class="glyphicon glyphicon-ok-circle"></span></button>
+                                        </div>
+                                        <br>
+                                        <div  align=center class="row">
+                                            <p class="gris"> Don't Have An Account?<a href="SignUp.html">Sign Up</a></p>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
++

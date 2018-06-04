@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link rel="icon" href="https://s-media-cache-ak0.pinimg.com/originals/f2/eb/5b/f2eb5baccd7aee44f021e692d4813625.png">
+      <link rel="stylesheet" href="css/style_productos.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <meta charset="UTF-8">
+      <title>TlalocShop</title>
+   </head>
+   <body>
+      <div class="row" style="margin: 1px;">
+          <div class="col-md-12">
+              <div class="panel panel-default" >
+                  <nav class="navbar navbar-inverse navbar-fixed-top animate" style="background-color: #274056">
+                      <div class="container navbar-more visible-xs">
+                          <form class="navbar-form navbar-left" role="search">
+                              <div class="form-group"></div>
+                          </form>
+                      </div>
+                      <div class="container">
+                          <div class="navbar-header hidden-xs">
+                              <a class="navbar-brand" href="Home.html">TlalocShop</a>
+                          </div>
+                          <ul class="nav navbar-nav navbar-right mobile-bar">
+                              <li>
+                                  <a href="Home.html">
+                                      <span class="menu-icon fa fa-home" style="padding-top: 10px"></span>
+                                      <span class="hidden-xs">Home</span>
+                                      <i class="fa fa-home hidden-xs" aria-hidden="true"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="products.html" style="color: white">
+                                      <span class="menu-icon fa fa-bars" style="padding-top: 10px"></span>
+                                      <span class="hidden-xs">Products</span>
+                                      <i class="fa fa-bars hidden-xs" aria-hidden="true"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="MyAccount.html">
+                                      <span class="menu-icon fa fa-user" style="padding-top: 10px"></span>
+                                      <span class="hidden-xs">My Account</span>
+                                      <i class="fa fa-user hidden-xs" aria-hidden="true"></i>
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="checout.html">
+                                      <span class="menu-icon fa fa-shopping-cart" style="padding-top: 10px"></span>
+                                      <span class="hidden-xs">My Cart</span>
+                                      <i class="fa fa-shopping-cart hidden-xs" aria-hidden="true"></i>
+                                  </a>
+                              </li>
+                          </ul>
+                      </div>
+                  </nav>
+
+                  <div class="panel-body">
+
+                     <br /><br />
+
+                     <h3 style="color:#274056; font-size:25px;">Star Wars: Palpatine did nothing wrong</h3>
+
+                     <div class="row">
+                        <div class="col-sm-2"></div>
+
+                        <div class="col-sm-8">
+                           <div class="row">
+                              <div class="col-sm-4 recuadro" align=center>
+                                 <div class="imagen">
+                                    <img src="img/Gray_book.png" class="img-thumbnail" alt="Foto de Libro" style="width:300px; background-color:#eff2f2;">
+                                 </div>
+                              </div>
+                              <br />
+                              <div class="col-sm-8">
+                                 <div class="row">
+                                    <div class="col-sm-6">
+                                       <p id="precio">$19.99</p>
+                                    </div>
+
+                                    <div class="col-sm-6" align=center style="padding:0px 0px 10px 0px;">
+                                       <a href="#" class="btn btn-default" data-toggle="modal" data-target="#saveModal"id="add_btn">Add to Cart</a>
+                                    </div>
+                                 </div>
+                                 <br />
+                                 <div id="border_hor" style="border: 1px dashed black;"><!-- border --></div>
+                                 <div class="row">
+                                    <div class="col-sm-12">
+                                       <p class="parrafo" style="font-size:20px; margin-top: 10px;">
+                                          According to all known laws of aviation, there is no way that a bee should be able to fly.
+                                          Its wings are too small to get its fat little body off the ground.
+                                          The bee, of course, flies anyways. Because bees don't care what humans think is impossible.
+                                       </p>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                           <!-- border -->
+                           <br />
+                           <div id="border_hor" style="border: 1px dashed black;"><!-- border --></div>
+
+                           <br />
+                           <br />
+
+                           <h4>Recommendations: </h4>
+                           <br />
+                           <br />
+
+
+                           <div class="row">
+                              <div class="col-sm-6" align=center>
+                                 <div class="gallery">
+                                      <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                        <img src="img/Gray_book.png" alt="Libro" width="250"/>
+                                      </a>
+                                      <div class="desc"><h4>iCarly va a Japon</h4></div>
+                                 </div>
+                              </div>
+
+                              <div class="col-sm-6" align=center>
+                                 <div class="gallery">
+                                   <a target="_blank" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+                                     <img src="img/Gray_book.png" alt="libro" width="250" />
+                                   </a>
+                                   <div class="desc"><h4>Koroshitekure</h4></div>
+                                 </div>
+                              </div>
+
+                           </div>
+
+                        </div>
+                        <div class="col-sm-2"></div>
+                     </div>
+
+
+                     <!-- Modal -->
+                     <div class="modal fade" id="saveModal" role="dialog">
+                         <div class="modal-dialog">
+
+                             <!-- Modal content-->
+                             <div class="modal-content">
+                                 <div class="modal-header">
+                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                     <h4 class="modal-title">Added to cart</h4>
+                                 </div>
+                                 <div class="modal-body">
+                                     <p>The product has been successfully added</p>
+                                 </div>
+                                 <div class="modal-footer">
+                                     <button type="button" class="btn btn-default" data-dismiss="modal">Exit</button>
+                                 </div>
+                             </div>
+
+                         </div>
+                     </div>
+
+                  </div>
+
+
+
+   </body>
+</html>
